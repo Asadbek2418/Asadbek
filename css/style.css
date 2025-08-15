@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:1201px ;
+    
+}
+.novbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.input{
+    width: 507px;
+    height: 48px;
+   border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.lupa{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 8px;
+    top: 14px;
+}
+.ta{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 5px;
+    top: 16px;
+
+}
+.inpu{
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 29px;
+    padding-bottom: 17px;
+    border: none;
+    background-color: #F3F9FB;
+    
+}
+.div2 , .ul1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.div3{
+    display: flex;
+    align-items: start;
+}
+.div3 a {
+    color:#1976d2;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow:0 0 2px #fff, 
+    0 0 4px #1976d2, 0 0 6px #64b5f6 ;
+    
+}
+.div3 img {
+    margin-top: 10px;
+    
+}
+
+.cart2{
+    margin-top: 150px;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212844;
+    align-items: center;
+}
+#sectionn{
+    height: 316px; 
+    padding-top: 150px;
+    z-index: 0;
+   
+}
+.cart h1{
+    font-size: 53px;
+    color: white;
+}
+.strel{
+    margin-left: -40px;
+}
+.strel2{
+    margin-right: -40px;
+}
+.span{
+    color: #008ECC;
+}
+.save{
+    color: #249B3E;
+}
+.div0 p {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.off{
+    position: absolute;
+    right: 0;
+}
+.div0{
+    position: relative;
+    margin-top: 56px;
+    width:227px ;
+    height: 295px;
+    border-radius: 16px;
+    background-color: #EDEDED;
+    transition: 0.5s;
+    
+    
+}
+.tell{
+    margin-left: 71px;
+    margin-top: 15px;
+}
+
+
+.hr{
+    margin-top: 10px;
+}
+.hh3{
+    color: white;
+    position: absolute;
+    right: 7px;
+    top: 0px;
+}
+   .sec2 .div0:hover{
+    box-shadow: 7px 7px 7px blue}
+
+  .sec2{
+    display: flex;
+    justify-content: space-between;
+    ;
+  }
+  
+  #sec1{
+z-index: 1;
+padding-bottom: 120px;
+padding-top: 150px;
+  }
+.tell2{
+    margin-left: 30px;
+}
+.tell3{
+    height: 175px; 
+    margin-left:30px ;
+}
+.tell4{
+    height: 175px;
+    margin-left:30px ;
+}
+.tell5{
+    height: 175px;
+        margin-left: 30px;
+}
+.chiziq{
+    width: 400px;
+    margin-top: 30px;
+    
+}
+.cartlar{
+    width: 132px;
+    height: 172px;
+    margin-top:40px ;
+    
+    
+}
+
+.telfon{
+width: 132px;
+height: 132px;
+
+border-radius: 50%;
+text-align: center;
+align-items: center;
+background-color: #F5F5F5;
+}
+.cartlar p{
+    text-align: center;
+    margin-top: 20px;
+}
+.otasi {
+    display: flex;
+    justify-content: space-between;
+}
+.telfonn {
+    width: 132px;
+    height: 132px;
+   
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #F5F5F5;
+}
+.kir{
+    width: 120px;
+    height: 120px;
+}
+.otasi .telfon:hover{
+    box-shadow: 7px 7px 7px blue
+    
+}
+.telfon, .telfonn{
+    transition: 0.5s;
+    z-index: 1;
+}
+.otasi .telfonn:hover {
+    box-shadow: 7px 7px 7px blue
+}
+#asad{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    z-index: 0;
+}
+.ayfon{
+    width: 62px;
+    height: 62px;
+    background-color: white;
+padding: 10px;
+padding-top: 3px;
+border-radius: 16px;
+margin-top: 20px;
+}
+.divas{
+    width:389px ;
+    height: 207px;
+    padding-top: 10px;
+    margin-top: 60px;
+    background-color: #414141;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 16px;
+}
+.divas h1 ,button{
+    color: white;
+    margin-top: 20px;
+
+}
+.divas button{
+    width:99px ;
+    height: 35px;
+    background-color: #414141;
+    border-radius:8px ;
+}
+.ww{
+    width: 140px;
+    height: 240px;
+    margin-top: 10px;
+}
+.divass {
+    width: 389px;
+    height: 207px;
+    padding-top: 10px;
+    margin-top: 60px;
+  background-color:#FFF3CC ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 16px;
+}
+.divass button {
+    width: 99px;
+    height: 35px;
+background-color:#F6DE8D;
+    border-radius: 8px;
+border: none;
+}
+.asad1{
+    width:114px ;
+    height: 34px;
+    background-color:yellow ;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.divass h1{
+    margin-top: 20px;
+}
+.divas3{
+    width: 389px;
+    height: 207px;
+    padding-top: 10px;
+    margin-top: 60px;
+    background-color:#FFECDF ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 16px;
+}
+.divas3 button {
+    width: 99px;
+    height: 35px;
+    background-color: #F6DE8D;
+    border-radius: 8px;
+    border: none;
+}
+.imgg{
+    margin-left: 0px;
+}
+.mi{
+    margin-top: 15px;
+
+}
+.divas3 h1{
+    margin-top: 15px;
+}
+.otasi2{
+    display: flex;
+    justify-content: space-between;
+}
+#ss{
+    z-index: 0;
+}
+#asad2{
+    z-index: 0;
+    padding-bottom: 120px;
+}
+.asadbek
+{
+    align-items: center;
+    background-color:#F5F5F5;
+    height: 187px;
+    text-align: center;padding-top: 25px;
+    border-radius: 16px;
+    transition: 0.5s;
+    
+}
+.katta{
+    text-align: center;
+
+    width: 187px;
+    padding-bottom: 20px;
+    
+    
+}
+.katta  p{
+    margin-top: 30px;
+}
+.katta .asadbek:hover{
+    box-shadow: 5px 5px 5px blue;
+}
+.otasi{
+    padding-top: 40px;
+}
+footer{
+    height: 600px;
+    background-color:#008ECC ;
+    padding-top: 80px;
+}
+footer ul li ,a{
+    margin-top: 20px;
+    color: white;
+}
+.birinchi{
+    font-size: 40px;
+}
+.goog{
+    margin-left: 15px;
+}
+.footercon{
+    display: flex;
+    justify-content: space-between;
+}
+.lili{
+    font-size: 20px;
+}
+
